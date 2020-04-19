@@ -19,9 +19,5 @@ export const SOCIAL_MEDIA = [
     title: 'Twitter',
     icon: 'fa-twitter',
     url: 'https://twitter.com/sagunkaranjit'
-  }, {
-    title: 'Email',
-    icon: 'fa-envelope-o',
-    url: 'karanjit.sagun01@gmail.com'
   }
 ];

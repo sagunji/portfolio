@@ -1,3 +1,4 @@
 import Avatar from './myself.jpg';
+import Logo from './blue-logo.svg';
 
-export { Avatar };
+export { Logo, Avatar };
