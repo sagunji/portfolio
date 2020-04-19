@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next ./src",
     "build": "next build ./src",
-    "postbuild": "next-on-netlify",
     "start": "next start ./src",
+    "postbuild": "next-on-netlify",
     "format": "prettier --write . '**/*.{ts,js,md,yaml,json}'",
     "format:check": "prettier --check . '**/*.{ts,js,md,yaml,json}'",
     "lint": "eslint src"
@@ -29,6 +29,7 @@
   "license": "ISC",
   "dependencies": {
     "next": "^9.3.5",
+    "next-images": "^1.4.0",
     "next-on-netlify": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
