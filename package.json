@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sagun Karanjit's website",
   "main": "index.js",
   "scripts": {
     "dev": "next ./src",
