@@ -9,7 +9,7 @@ export default function Content() {
       <ul className="icons">
         {
           SOCIAL_MEDIA.map(({ title, url, icon }) => (
-            <li><a href={url} className={`icon style2 ${icon}`} target="_blank" rel="noopener"><span className="label">{title}</span></a></li>
+            <li key={title}><a href={url} className={`icon style2 ${icon}`} target="_blank" rel="noopener"><span className="label">{title}</span></a></li>
           ))
         }
         <li><a href="mailto:karanjit.sagun01@gmail.com" className="icon style2 fa-envelope-o"><span className="label">Email</span></a></li>
