@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Logo } from '../../public/images/images';
+import { Logo } from '../assets/images/images';
 
 export default function MainHead() {
   return (

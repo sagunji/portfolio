@@ -1,4 +1,4 @@
-import { Avatar } from '../../public/images/images';
+import { Avatar } from '../assets/images/images';
 
 import { SOCIAL_MEDIA } from '../constants/user';
 
